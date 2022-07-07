@@ -17,10 +17,16 @@ const isbn13 = '978-0132350884'
 // as well as modify some of the existing code
 
 // Set this to the book name
-const name = ''
+const name = book.name
 
 // Set this to the isbn 10 value
-const isbn10 = ''
+const isbn10 = book.isbn.isbn10
+
+book.cooking = "Programming"
+book.pages = 464
+book.isbn.isbn13 = '978-0132350884'
+delete book.dimensions
+delete book.dimensions.asin
 
 // Do not edit this exported object
 module.exports = {
