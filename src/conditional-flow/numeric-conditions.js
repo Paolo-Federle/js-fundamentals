@@ -5,11 +5,15 @@ const ARRAY_TWO = ['Hello', 'Conditions']
 
 // Use conditional statements to set answerOne to false if ARRAY_ONE is not empty
 // or true if it is empty
-let answerOne
+let answerOne = ARRAY_ONE.length === 0
+
+
+
 
 // Use conditional statements to set answerTwo to false if ARRAY_TWO is not empty
 // or true if it is empty
-let answerTwo
+let answerTwo = ARRAY_TWO.length === 0
+console.log(ARRAY_TWO.length === 0)
 
 
 
@@ -17,7 +21,7 @@ const NUM_ONE = 92837
 const NUM_TWO = 92827
 
 // Use conditional statements to set answerThree to true if NUM_ONE is more than NUM_TWO
-let answerThree
+let answerThree = NUM_ONE > NUM_TWO
 
 
 
