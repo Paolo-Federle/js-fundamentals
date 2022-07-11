@@ -31,6 +31,13 @@ const NUMBERS = [67, 2039, 17, 501, 98, 139, 21]
 // to the lowest number in the NUMBERS array
 let answerFour
 
+for (i = 0; i < NUMBERS.length; i++) {
+    console.log(i)
+    console.log(answerFour)
+    if (answerFour > NUMBERS[i] || typeof answerFour === "undefined") {
+        answerFour = NUMBERS[i]
+    }
+  } 
 
 
 
