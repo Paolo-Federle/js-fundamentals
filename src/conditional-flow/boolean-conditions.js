@@ -11,7 +11,7 @@ if (didPass === true) {
   answer = "Sorry, try again!"
 }
 
-
+console.log(answer)
 
 
 // When you're done and the test passes, changing didPass to the opposite boolean
